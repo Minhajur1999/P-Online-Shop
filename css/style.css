@@ -1,0 +1,214 @@
+import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&display=swap');
+
+
+:root{
+	--primary-color: #45ccb8;
+	--light-gray: #2b3023a1;
+	--border: #2b303218;
+	--text-color: #ff686b;
+	--roboto: "Roboto", sans-serif;
+	--gugi: "Gugi", cursive;
+	--sofia: "Sofia", cursive;
+}
+
+.primary-color{
+	color:  #45ccb8;
+}
+.bg-primary-color{
+	background: #45ccb8;	
+}
+.text-color{
+	color: #ff686b;
+}
+.font-roboto{
+	font-family: Roboto , sans-serif;
+}
+.lightblur{
+	color: lightblue;
+}
+.font-sofia{
+	font-family: Sofia, cursive;
+}
+
+
+/*header*/
+header{
+	background-color: #45ccb8; 
+}
+header .site-title{
+	font-family: Gugi,cursive;
+}
+.container .dropdown-toggle,
+.container .dropdown-item{
+	font-size: 0.8em;
+
+}
+.header-links a{
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+}
+
+	/*Navbar*/
+	.navbar-nav{
+		padding: 0.8em 0em;
+	}
+	.navbar-nav .nav-link{
+		font-size: 1em;
+		color:  #2b3023a1;
+	}
+	.navbar-nav .nav-item .nav-link{
+		padding: 0 1.4em;
+	}
+	.navbar-nav .basket-icon{
+		margin-right: 6.5rem !important;
+	}
+	/*Close Navbar*/
+
+/*close header
+
+
+               /* Main*/
+
+                /* Slide One*/
+                .site-slider{
+                	position: relative;
+                }
+                .position-top{
+                	position: absolute;
+                	top: 45%;
+                }
+                .site-slider .slider-btn .prev,
+                .site-slider .slider-btn .next{
+                	background-color: #45ccb8;
+                	padding: 1rem 1.5rem;
+                	border-radius: 10rem;
+                	color: white;
+                	margin: 1rem;
+                	opacity: 0;
+                	transition: opacity 1s ease;
+                }
+
+                .site-slider:hover .slider-btn .prev,
+                .site-slider:hover .slider-btn .next{
+                	opacity: 1;
+                }
+                .right-0{
+                	right: 0;
+                }
+                .left-0{
+                	left: 0;
+                }
+					/*Slick Dots*/
+					.slick-dots{
+					display: flex;
+					justify-content: center;
+					margin: 0;
+					padding: 1rem 0;
+					list-style-type: none;
+					position: absolute;
+					bottom: 0;
+					right: 50%;
+					}
+
+					.slick-dots li{
+						margin: 0 0.6rem;
+					}
+					.slick-dots button{
+						display: block;
+						width: 0.5rem;
+						height: 0.5rem;
+						padding: 0;
+						border: none;
+						background-color: red;
+						text-indent: -99999px;
+						border-radius: 100%;
+					}
+					.slick-dots li .slick-active button{
+						transform: scale(2.5);
+						box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.205);
+				}
+			
+			/* Close Slide One*/
+
+
+			/*  Slide Two*/
+			.site-slider-two{
+				position: relative;
+				height: 30%;
+
+			}
+			.site-slider-two .product{
+				position: relative;
+				overflow: hidden;
+				border: none;
+			}
+			.site-slider-two .product img{
+				width: 100%;
+				height: 240px;
+				margin: auto;
+			}
+
+			.product .btn-span{
+				padding: 0.2rem 0.9rem;
+				border-radius: 5rem;
+				border: 1px solid #2b303218;
+				background-color: white;
+				color: #2b3023a1;
+			}
+
+			.product .btn-span:hover{
+				background-color: #45ccb8;
+
+			}
+			/* Close Slide Two*/
+
+			/*Features*/
+			.features{
+				color: black;
+				font-family: Gugi,cursive;
+			}
+			.product-features .btn-span{
+				padding: 0.3rem 0.9rem;
+				border-radius: 5rem;
+				border: 2px solid #2b303218;
+				background-color: white;
+				color: #2b3023a8;
+				cursor: pointer;
+			}
+			.product-features .btn-span:hover{
+				background-color: #45ccb8;
+
+			}
+			.product-features .card-img img{
+				width: 70%;
+				height: 200px;
+				margin: auto;
+			}
+			/*Close Features*/
+
+           /* Close Main*/
+
+
+
+ /* Footer */
+  footer {
+    background: white;
+    overflow-x: hidden;
+    padding: 10vmin 0vmin 5vmin 0vmin;
+  }
+  footer input {
+    border: none !important;
+  }
+  footer input::placeholder {
+    color: black !important;
+  }
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+ /* Close Footer */

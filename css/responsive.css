@@ -1,0 +1,128 @@
+@media screen and (max-width: 576px) {
+
+	/*Header*/
+
+	.container .dropdown-toggle,
+	.container .dropdown-item{
+	    font-size: 0.5em;
+
+	}
+
+	.container .col-md-4 .site-title{
+		font-size: large;
+	}
+	.header-links a{
+	font-size: 0.5em;
+	padding: 10px 0px 0px 0px;
+}
+
+/*Nav*/
+.navbar-nav .nav-link{
+		font-size: 0.7em;
+		color:  #2b3023a1;
+	}
+	.navbar-nav .nav-item .nav-link{
+		padding-bottom: 1rem;
+	}
+    .navbar-nav .basket-icon{
+		margin-right: 0.5rem !important;
+	}
+	
+	nav .navbar-toggler .navbar-toggler-icon{
+		width: 18px;
+		height: 18px;
+	}
+/*Close Nav*/
+
+	           /* Slide One*/
+                
+                .position-top{
+                	position: absolute;
+                	top: 38%;
+                }
+                .site-slider .slider-btn .prev,
+                .site-slider .slider-btn .next{
+                	background-color: #45ccb8;
+                	padding: 0.2rem 0.7rem;
+                	border-radius: 10rem;
+                	color: white;
+                	margin: 0.1rem;
+                	opacity: 0;
+                	transition: opacity 1s ease;
+                }
+              /* Close Slide One*/
+
+                /* Slide Two*/
+                .site-slider-two .product img{
+				width: 100%;
+				height: 160px;
+				margin: auto;
+			}
+			 /* Close Slide Two*/
+
+			 /*Features*/
+			 .features{
+				font-size: x-large;
+			}
+			.feature{
+				font-size: x-small;
+			}
+			.product-features .card-img img{
+				width: 70%;
+				height: 200px;
+				margin: auto;
+			}
+			/*Close Features*/
+
+			/*Product Detals*/
+				.body-detals{
+					text-align: center;
+					margin: 30px 0px 20px 0px;
+				}
+				.body-detals h3{
+					font-size: x-large;
+				}
+				.body-detals p{
+					font-size: small;
+				}
+			/*Product Detals*/
+
+			/**/
+			.support .h5{
+				font-size: smaller;
+			}
+			.support span i{
+				font-size: large;
+			}
+			/**/
+
+	/*close Header*/
+
+
+	/*Footer*/
+	 footer .row .col-md-2 {
+        margin-top: 8vmin;
+      }
+	/*Close Footer*/
+}
+
+
+@media screen and (max-width: 768px) {
+	.navbar-nav .basket-icon{
+		margin-right: 0.3rem !important;
+	}
+
+	 .site-slider-two .product img{
+				width: 100%;
+				height: 140px;
+				margin: auto;
+			}
+			.product-features .card-img img{
+				width: 100%;
+				height: 160px;
+				margin: auto;
+			}
+			.border .font-sofia{
+				font-size: xx-small;
+			}
+}
